@@ -1,9 +1,9 @@
 const oracledb = require('oracledb');
 
 db = {
-    user: 'partidadoble',
-    password: 'system',
-    connectString: 'localhost:1521'
+    user: 'SH',
+    password: '36844028',
+    connectString: '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)))'
 }
 
 async function open(sql, binds, autoCommit) {

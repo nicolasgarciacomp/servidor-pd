@@ -40,8 +40,6 @@ router.get('/api/cuentas_asiento', async(req, res) => {
     sql = "SELECT * FROM SIC_CUENTAS_ASIENTO";
 
     let result = await DB.Open(sql, [], false);
-    //console.log(result.rows);
-    //console.log(vector);
 
     result.rows.map(vec => {
 
